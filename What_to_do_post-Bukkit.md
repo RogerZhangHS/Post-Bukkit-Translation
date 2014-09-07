@@ -1,39 +1,39 @@
-ÎÒÃÇÕıÔÚ¶ÔÓÚÎÒÃÇµÄÖ®ºóµÄÎ´À´½øĞĞÒ»Ïî¹«ÖÚµ÷²é£¬ÒÔÈÃÎÒÃÇ¾ö¶¨ÎÒÃÇÖ®ºóµÄºÎÈ¥ºÎ´Ó£¬ÔÚÄ¿Ç°Õâ¸öÇé¿öÏÂ£¬Äã¿ÉÒÔ¼ÓÈëIRCÆµµÀ irc.esper.net 6667 #nextstep¡£
-Õâ¸öÎÄµµÊÜĞí¶à´Ó#nextstepÆµµÀÖĞÀ´µÄ¾ßÓĞ¹²Ê¶µÄÈËÃÇ¶ø±à¼­¡£ÔÚ¼ÓÈëÌÖÂÛÖ®Ç°ÇëÏÈÇë×ĞÏ¸ÔÄ¶ÁÕû¸öÎÄµµ£¬ÒòÎªÄãËùÌá³öµÄÒâ¼û¿ÉÄÜÔçÒÑ±»Ìá³ö¡£
-·¢ÉúÁËÊ²Ã´£¿
+æˆ‘ä»¬æ­£åœ¨å¯¹äºæˆ‘ä»¬çš„ä¹‹åçš„æœªæ¥è¿›è¡Œä¸€é¡¹å…¬ä¼—è°ƒæŸ¥ï¼Œä»¥è®©æˆ‘ä»¬å†³å®šæˆ‘ä»¬ä¹‹åçš„ä½•å»ä½•ä»ï¼Œåœ¨ç›®å‰è¿™ä¸ªæƒ…å†µä¸‹ï¼Œä½ å¯ä»¥åŠ å…¥IRCé¢‘é“ irc.esper.net 6667 #nextstepã€‚
+è¿™ä¸ªæ–‡æ¡£å—è®¸å¤šä»#nextstepé¢‘é“ä¸­æ¥çš„å…·æœ‰å…±è¯†çš„äººä»¬è€Œç¼–è¾‘ã€‚åœ¨åŠ å…¥è®¨è®ºä¹‹å‰è¯·å…ˆè¯·ä»”ç»†é˜…è¯»æ•´ä¸ªæ–‡æ¡£ï¼Œå› ä¸ºä½ æ‰€æå‡ºçš„æ„è§å¯èƒ½æ—©å·²è¢«æå‡ºã€‚
+å‘ç”Ÿäº†ä»€ä¹ˆï¼Ÿ
 
-    ÇëÎñ±Ø°ïÖúÎÒÃÇÍê³ÉÕâ·İµ÷²é£¡£¨ĞèÒª·­Ç½£©£ºhttp://bit.ly/1qnO8Gm
-    Äã¿ÉÒÔµã»÷ÕâÀï²é¿´µ÷²éµÄ½á¹û£ºhttps://docs.google.com/forms/d/1lQ0eXyfaEHJPutFPAtNQk2XQteqHSKT4OJXWGFNfVio/viewanalytics
+    è¯·åŠ¡å¿…å¸®åŠ©æˆ‘ä»¬å®Œæˆè¿™ä»½è°ƒæŸ¥ï¼ï¼ˆéœ€è¦ç¿»å¢™ï¼‰ï¼šhttp://bit.ly/1qnO8Gm
+    ä½ å¯ä»¥ç‚¹å‡»è¿™é‡ŒæŸ¥çœ‹è°ƒæŸ¥çš„ç»“æœï¼šhttps://docs.google.com/forms/d/1lQ0eXyfaEHJPutFPAtNQk2XQteqHSKT4OJXWGFNfVio/viewanalytics
 
-##»°ÌâÊÇÊ²Ã´£¿
-    ¾»ÊÒÈí¼ş¿ª·¢£¿	     
-	    ²»¡£ÎªÊ²Ã´£¿ÔÚÎÒÃÇËùÖªµÄ·¶Î§ÄÚ²¢Ã»ÓĞÈÎºÎMinecraftµÄJava½Ó¿ÚÖ§³Ö¾»ÊÒÈí¼ş¿ª·¢¡£ËùÒÔ£¬ÎÒÃÇÍêÈ«ÌÓ²»µôEULAµÄÏŞÖÆ¡£
-        ²»¡£Ì«¶à¿ª·¢ÕßÃÇÒÑ¾­ÉîÈëÑĞ¾¿ÁËMinecraftÔ´´úÂëÌ«¶àÁË£¬ÍêÈ«Ëã²»ÉÏ¾»ÊÒÈí¼ş¿ª·¢µÄ·¶³ëÁË¡£
+##è¯é¢˜æ˜¯ä»€ä¹ˆï¼Ÿ
+    å‡€å®¤è½¯ä»¶å¼€å‘ï¼Ÿ	     
+	    ä¸ã€‚ä¸ºä»€ä¹ˆï¼Ÿåœ¨æˆ‘ä»¬æ‰€çŸ¥çš„èŒƒå›´å†…å¹¶æ²¡æœ‰ä»»ä½•Minecraftçš„Javaæ¥å£æ”¯æŒå‡€å®¤è½¯ä»¶å¼€å‘ã€‚æ‰€ä»¥ï¼Œæˆ‘ä»¬å®Œå…¨é€ƒä¸æ‰EULAçš„é™åˆ¶ã€‚
+        ä¸ã€‚å¤ªå¤šå¼€å‘è€…ä»¬å·²ç»æ·±å…¥ç ”ç©¶äº†Minecraftæºä»£ç å¤ªå¤šäº†ï¼Œå®Œå…¨ç®—ä¸ä¸Šå‡€å®¤è½¯ä»¶å¼€å‘çš„èŒƒç•´äº†ã€‚
 
-    ÔÚÄ¿Ç°µÄMODÆ½Ì¨ÉÏ¹¹½¨£¿
-        FORGE¡£ÎªÊ²Ã´£¿ÔçÒÑ¾­½¨Á¢µÄÍæ¼ÒÉçÈº£¬±ÜÃâÁË´ÓÍ·¿ªÊ¼µÄÀ§¾³¡£
+    åœ¨ç›®å‰çš„MODå¹³å°ä¸Šæ„å»ºï¼Ÿ
+        FORGEã€‚ä¸ºä»€ä¹ˆï¼Ÿæ—©å·²ç»å»ºç«‹çš„ç©å®¶ç¤¾ç¾¤ï¼Œé¿å…äº†ä»å¤´å¼€å§‹çš„å›°å¢ƒã€‚
 
-    ÓÃÊ²Ã´API£¿
-        CANARY»òSPOUT¡£ÏêÇéÇë¿´µ÷²éÎÊ¾í½á¹û¡£
+    ç”¨ä»€ä¹ˆAPIï¼Ÿ
+        CANARYæˆ–SPOUTã€‚è¯¦æƒ…è¯·çœ‹è°ƒæŸ¥é—®å·ç»“æœã€‚
 		
-##Ä¿Â¼£º
-    ·¢ÉúÁËÊ²Ã´£¿
-    Ä¿Â¼
-    ×îÊÜ»¶Ó­µÄÒâ¼û
-    ËùÓĞ¿ÉÓÃµÄÒâ¼û
-    ±¸×¢
-    ÎÊÌâ
-    ÒªÇó
-    ÒıÓÃ
-    API±È½Ï
+##ç›®å½•ï¼š
+    å‘ç”Ÿäº†ä»€ä¹ˆï¼Ÿ
+    ç›®å½•
+    æœ€å—æ¬¢è¿çš„æ„è§
+    æ‰€æœ‰å¯ç”¨çš„æ„è§
+    å¤‡æ³¨
+    é—®é¢˜
+    è¦æ±‚
+    å¼•ç”¨
+    APIæ¯”è¾ƒ
 	
 ##Most Popular Option
 The prevailing opinion so far is to write a new abstracted API (as in it does not refer to Minecraft objects 1:1), sort of like Bukkit, on top of Minecraft Forge and possibly also Glowstone.
 Forge is a client and server API that is popular with many gameplay mods. It already has a large community.
-Because Forge features no ¡°abstraction API,¡± a mod/plugin written for Forge may break between MC versions if Mojang makes too many large changes. Therefore, if an API is written on top of Forge, this problem should be alleviated.
+Because Forge features no â€œabstraction API,â€ a mod/plugin written for Forge may break between MC versions if Mojang makes too many large changes. Therefore, if an API is written on top of Forge, this problem should be alleviated.
 Forge mods using this abstraction API will be able to use the rest of Forge, which is akin to using NMS in Bukkit, except much more power will be afforded to the modder.
-This statement is wrong. Using an abstraction layer is like using Bukkit¡¯s actual API and not touching anything in NMS.  There¡¯s no spec for said abstraction, so it can¡¯t be compared to using NMS.  Forge by itself IS using NMS, any abstraction on top of it is going to be more limiting (and most likely extremely)
-Glowstone is a standalone reimplementation of the MC server. It is not based off of Mojang¡¯s code like Bukkit, Forge, Spigot, and Canary. 
+This statement is wrong. Using an abstraction layer is like using Bukkitâ€™s actual API and not touching anything in NMS.  Thereâ€™s no spec for said abstraction, so it canâ€™t be compared to using NMS.  Forge by itself IS using NMS, any abstraction on top of it is going to be more limiting (and most likely extremely)
+Glowstone is a standalone reimplementation of the MC server. It is not based off of Mojangâ€™s code like Bukkit, Forge, Spigot, and Canary. 
 It has been suggested that whichever API the community agrees upon could also be built on top of Glowstone. 
 Currently Glowstone already implements the Bukkit API and this is possible because Glowstone does not make use of proprietary Minecraft code.
 Simply switching to a standalone re-implementation of the MC server is not an option for a lot of people because it will likely not be up to date in regards to new MC features, which is a problem when a lot of people are running regular creative or survival servers.
@@ -42,22 +42,22 @@ While a brand new API could be written, it has been suggested that either the AP
 
 
 
-##ËùÓĞ¿ÉÓÃµÄÒâ¼û
-ËùÓĞ¿ÉÓÃµÄÒâ¼û
-×¢£ºÄ³Ğ©½¨ÒéÊÇÓÉÆäËû·şÎñ¶ËµÄ¿ª·¢ÕßËù×«Ğ´µÄ£¬ÓÉ´Ë£¬¿ÉÄÜ»áÓĞÒ»Ğ©Æ«¼û¡£
-1¡¢»»ÖÁBukkitµÄ¾ºÕù¶ÔÊÖ
-    a¡¢»»ÖÁCanaryÆ½Ì¨
-            i.Canary°üº¬¹Ù·½µÄ minecraft_server £¬Òò´Ë»áÎ¥·´·şÎñÌõ¿î£¨ÖØÒª£©
-            ii.Íæ¼ÒÉçÈº²¢²»´ó
-            iii.Ê¹ÓÃBSD 3-Clause License
-            iv.ÈËÃÇ»áÏë½«CanaryºÍForgeÒ»ÆğÊ¹ÓÃ£¬Canary Lib¿ÉÒÔ±»ÓÃ×÷Î´À´µÄÀàËÆÓÚCauldron·şÎñ¶ËµÄ¶«Î÷¡££¨CanaryÍÅ¶ÓÕıÔÚ¹Ø×¢£©
-            v.ËûÃÇµÄÍøÕ¾ÉÏÎÄµµÏêÏ¸
-            vi.¿ÉÒÔÊ¹ÓÃ³éÏó²ã£¬¾ÍÏñBukkit¾ßÓĞµÄÄÇÑù¡£°üº¬Ğí¶àBukkit±¾Éí¾ßÓĞµÄ¹¦ÄÜ£¬Í¬Ê±Ò²ÓĞĞí¶à±»ĞèÒªµÄAPI¹¦ÄÜ
-                a. NBT½ö½öÊÇÒ»Ğ¡²¿·Ö
-            vii.ÍÅ¶Ó½¨Á¢Ê±¼ä½Ï³¤
-                ¾¡¹ÜÈç´Ë£¬µ«ÍÅ¶ÓÈËÊı½ÏÉÙ£¬²¢²»ÄÜÊ®·ÖÑ¸ËÙµÄ¿ª·¢
-            viii.Ò»Ğ©ÔÚBukkitÆ½Ì¨ÉÏÊ®·ÖÊÜ»¶Ó­µÄ²å¼şÒ²Í¬Ñù¼æÈİCanary
-    b¡¢»»ÖÁ Minecraft Forge £¨²¢ÄÚÖÃÒ»¸öAPI£©
+##æ‰€æœ‰å¯ç”¨çš„æ„è§
+æ‰€æœ‰å¯ç”¨çš„æ„è§
+æ³¨ï¼šæŸäº›å»ºè®®æ˜¯ç”±å…¶ä»–æœåŠ¡ç«¯çš„å¼€å‘è€…æ‰€æ’°å†™çš„ï¼Œç”±æ­¤ï¼Œå¯èƒ½ä¼šæœ‰ä¸€äº›åè§ã€‚
+1ã€æ¢è‡³Bukkitçš„ç«äº‰å¯¹æ‰‹
+    aã€æ¢è‡³Canaryå¹³å°
+            i.CanaryåŒ…å«å®˜æ–¹çš„ minecraft_server ï¼Œå› æ­¤ä¼šè¿åæœåŠ¡æ¡æ¬¾ï¼ˆé‡è¦ï¼‰
+            ii.ç©å®¶ç¤¾ç¾¤å¹¶ä¸å¤§
+            iii.ä½¿ç”¨BSD 3-Clause License
+            iv.äººä»¬ä¼šæƒ³å°†Canaryå’ŒForgeä¸€èµ·ä½¿ç”¨ï¼ŒCanary Libå¯ä»¥è¢«ç”¨ä½œæœªæ¥çš„ç±»ä¼¼äºCauldronæœåŠ¡ç«¯çš„ä¸œè¥¿ã€‚ï¼ˆCanaryå›¢é˜Ÿæ­£åœ¨å…³æ³¨ï¼‰
+            v.ä»–ä»¬çš„ç½‘ç«™ä¸Šæ–‡æ¡£è¯¦ç»†
+            vi.å¯ä»¥ä½¿ç”¨æŠ½è±¡å±‚ï¼Œå°±åƒBukkitå…·æœ‰çš„é‚£æ ·ã€‚åŒ…å«è®¸å¤šBukkitæœ¬èº«å…·æœ‰çš„åŠŸèƒ½ï¼ŒåŒæ—¶ä¹Ÿæœ‰è®¸å¤šè¢«éœ€è¦çš„APIåŠŸèƒ½
+                a. NBTä»…ä»…æ˜¯ä¸€å°éƒ¨åˆ†
+            vii.å›¢é˜Ÿå»ºç«‹æ—¶é—´è¾ƒé•¿
+                å°½ç®¡å¦‚æ­¤ï¼Œä½†å›¢é˜Ÿäººæ•°è¾ƒå°‘ï¼Œå¹¶ä¸èƒ½ååˆ†è¿…é€Ÿçš„å¼€å‘
+            viii.ä¸€äº›åœ¨Bukkitå¹³å°ä¸Šååˆ†å—æ¬¢è¿çš„æ’ä»¶ä¹ŸåŒæ ·å…¼å®¹Canary
+    bã€æ¢è‡³ Minecraft Forge ï¼ˆå¹¶å†…ç½®ä¸€ä¸ªAPIï¼‰
 Large community, used by many gameplay mods (PLUS)
 Differing ideologies from bukkit, forge exposed as much of the NMS code as possible in the form of hooks, whereas bukkit hides everything behind an abstraction layer
 Currently requires a modded client (MAJOR) but will be fixed for 1.8, and possibly 1.7 (MAYBE) according to LexManos
@@ -66,14 +66,14 @@ Forge does not, and will not,[3] offer an abstraction layer, hence requiring aut
 srgname obf helps, but there is no write-once-ignore thing like on Bukkit
 This only applies to LARGE projects, some really tiny mods only interface with Forge API
 Performance is subpar to both Bukkit and Spigot
-Can be ¡®fixed¡¯ but will need both time, and manpower, mostly time.
+Can be â€˜fixedâ€™ but will need both time, and manpower, mostly time.
 Can we attempt to salvage spigot patches?
 Yes, we could but we should ask written permission (FEEDBACK)
 Can we use existing performance enhancement projects? (FEEDBACK)
-Reason i¡¯m putting it here, we need to know if we can easily get the server up to the known performance current ¡®generation¡¯ servers have, otherwise there won¡¯t be any added value.
-Might be possible, just that we might have to ask first. There¡¯s also the question of how invasive things should be
+Reason iâ€™m putting it here, we need to know if we can easily get the server up to the known performance current â€˜generationâ€™ servers have, otherwise there wonâ€™t be any added value.
+Might be possible, just that we might have to ask first. Thereâ€™s also the question of how invasive things should be
 Not very developer friendly
-Considered ¡°hard to get into¡± by some (or many?) developers
+Considered â€œhard to get intoâ€ by some (or many?) developers
 Lacks proper PR processing systems, unlike bukkit.
 If the community is big enough, we can possibly apply pressure on LexManos?
 Lack of documentation, though can be fixed
@@ -83,7 +83,7 @@ Switch to an independent clean-room implementation:
 Switch to Glowstone
 Project has been around for a long time, actually pretty up to date.
 Missing very large portions of functionality, such as W-Gen, 
-Generally out of date with Minecraft¡¯s newer features because it is an independent from-scratch re-implementation of Minecraft¡¯s mechanics (MAJOR)
+Generally out of date with Minecraftâ€™s newer features because it is an independent from-scratch re-implementation of Minecraftâ€™s mechanics (MAJOR)
 Can use Bukkit API (PLUS)
 Includes Bukkit API.  Possible License restrictions/issues (MAJOR)
 Cannot combine with Forge mods (MAJOR)
@@ -97,11 +97,11 @@ Switch to Craft.net
 Written in C#
 Cannot combine with Forge mods (MAJOR)
 Switch to Spout
-Currently not in active development. It is ¡°continued¡± under the name flow-engine in the flow github repository. Either Spout or flow-engine would need to be forked.
-Out of date with Minecraft¡¯s newer features because it is an independent from-scratch re-implementation of Minecraft¡¯s mechanics (MAJOR)
+Currently not in active development. It is â€œcontinuedâ€ under the name flow-engine in the flow github repository. Either Spout or flow-engine would need to be forked.
+Out of date with Minecraftâ€™s newer features because it is an independent from-scratch re-implementation of Minecraftâ€™s mechanics (MAJOR)
 Out of the box, Spout is simply an engine (client/server) You need the Vanilla plugin to get Minecraft
 BukkitBridge module for compatibility has (MAJOR) performance problems given explicit design choices.
-Unless creating a client is desired, Spout would need to have its client portion removed. Might even consider merging Vanilla¡¯s code into Spout to make it a true Minecraft server.
+Unless creating a client is desired, Spout would need to have its client portion removed. Might even consider merging Vanillaâ€™s code into Spout to make it a true Minecraft server.
 Cannot combine with Forge mods (MAJOR)
 Implement the Bukkit API on top of an existing implementation (Forge, Canary)
 BukkitForge
@@ -114,27 +114,27 @@ Somewhat recent, however if we wanted to start with a small base this would be t
 Bad idea - Chunkr. This project is too immature
 Start our own project
 Lots, and lots of work (MAJOR)
-Should be partly, or mostly compatible using the current api¡¯s
+Should be partly, or mostly compatible using the current apiâ€™s
 Ability to pick a good licence, possibly GNU? GPL? LGPL? MIT?!
-This would allow us the most freedom with what we¡¯d want to do moving forward
+This would allow us the most freedom with what weâ€™d want to do moving forward
 The possibility to remap existing bukkit plugins to new API, with 90+%? compatibility (FEEDBACK)
 Would it be possible to integrate with Forge API?
 Should be transparent and open towards the community
-Runtime patch with current Bukkit and Craftbukkit code (i.e. Mojang¡¯s code is never distributed in the same binary as the GPL code -- rather, it is combined when the user runs the server)
-Very dangerous in regards to Bukkit¡¯s licensing situation (MAJOR)
+Runtime patch with current Bukkit and Craftbukkit code (i.e. Mojangâ€™s code is never distributed in the same binary as the GPL code -- rather, it is combined when the user runs the server)
+Very dangerous in regards to Bukkitâ€™s licensing situation (MAJOR)
 Can use Bukkit API (PLUS)
 Bukkit API is Mojang owned, may not be a plus
-Install patch with current Bukkit and Craftbukkit code  (i.e. Mojang¡¯s code is never distributed in the same binary as the GPL code -- rather, it is combined via a simple installer, which allows users to build their own server, using our, and their own patches)
-Less dangerous, but still very dangerous in regards to Bukkit¡¯s licensing situation  (MAJOR).
-We can ¡®ditch¡¯ most if not all bukkit code, and use our own implementation, the default server already has most parts we need, all we need to add is a good API, which isn¡¯t a whole lot of work, but certainly less work than writing a entire server from scratch, opinions?
-Not sure whether it¡¯s just a good idea, maybe keep the bukkit API and reimplement craftbukkit?
-Possibly ¡®more¡¯ legal than distributing the minecraft-server.jar
+Install patch with current Bukkit and Craftbukkit code  (i.e. Mojangâ€™s code is never distributed in the same binary as the GPL code -- rather, it is combined via a simple installer, which allows users to build their own server, using our, and their own patches)
+Less dangerous, but still very dangerous in regards to Bukkitâ€™s licensing situation  (MAJOR).
+We can â€˜ditchâ€™ most if not all bukkit code, and use our own implementation, the default server already has most parts we need, all we need to add is a good API, which isnâ€™t a whole lot of work, but certainly less work than writing a entire server from scratch, opinions?
+Not sure whether itâ€™s just a good idea, maybe keep the bukkit API and reimplement craftbukkit?
+Possibly â€˜moreâ€™ legal than distributing the minecraft-server.jar
 Can use Bukkit API (PLUS)
 Wait until Mojang releases the API
 May be a very long wait, potentially years (we waited 2, and are still waiting) (MAJOR)
 It will be an step up from Bukkit in what you can do, but it will not compare to Forge, et. al. which permit client modding because you will not be able to execute your own code on the client 
-Possibly the lamest api we¡¯ve ever seen, looking at the current possibility¡¯s using command blocks, e.g. totally written, and made to be used on realms. Likely won¡¯t compare to the extensible changes possible with current APIs.
-Considering what Mojang¡¯s been doing recently, could it be a ploy to force people on realms (conspiracy theory)
+Possibly the lamest api weâ€™ve ever seen, looking at the current possibilityâ€™s using command blocks, e.g. totally written, and made to be used on realms. Likely wonâ€™t compare to the extensible changes possible with current APIs.
+Considering what Mojangâ€™s been doing recently, could it be a ploy to force people on realms (conspiracy theory)
 Implement a plugin API that acts as a wrapper around the Minecraft server
 May even work on snapshots
 Likely very fast to update (MAJOR)
@@ -142,38 +142,38 @@ Very limited as to what can be done (MAJOR)
 Can only do what can be done by modifying network packets or reusing what can be done with command blocks 
 ##Notes
 With nearly everything at this point in the Minecraft community being written in Java, a Java based server would probably gain the most support.
-Using the current minecraft-server.jar is the easiest way to go, distributing patches which patch the server-code to insert ¡®our¡¯ code, allows experienced users to use java reflection to change base code, and use things we haven¡¯t implemented in the API yet.
-Vanilla clients need to be able to connect to it. Quite simply, if we¡¯re looking for a post-Bukkit option, it¡¯ll have to be this way. (MAJOR)
+Using the current minecraft-server.jar is the easiest way to go, distributing patches which patch the server-code to insert â€˜ourâ€™ code, allows experienced users to use java reflection to change base code, and use things we havenâ€™t implemented in the API yet.
+Vanilla clients need to be able to connect to it. Quite simply, if weâ€™re looking for a post-Bukkit option, itâ€™ll have to be this way. (MAJOR)
 ##Questions
 Are we going to stick to ONE protocol, or are we planning to be MULTI protocol.
-Only applies if we¡¯re going to write our own software.
-Really doesn¡¯t matter, as we can simply update the protocol as MC updates come out. Mojang will probably keep updating the protocol a tiny smudge in areas, making multi protocol nearly impossible anyways.
-The current status quo is that Bukkit/MC isn¡¯t multiprotocol, so not too many people will really care for this I imagine
-Ownership, how will this be ¡®run¡¯ who will oversee it, who will manage it? How are we going to tackle this, and work together in a proper fashion.
+Only applies if weâ€™re going to write our own software.
+Really doesnâ€™t matter, as we can simply update the protocol as MC updates come out. Mojang will probably keep updating the protocol a tiny smudge in areas, making multi protocol nearly impossible anyways.
+The current status quo is that Bukkit/MC isnâ€™t multiprotocol, so not too many people will really care for this I imagine
+Ownership, how will this be â€˜runâ€™ who will oversee it, who will manage it? How are we going to tackle this, and work together in a proper fashion.
 Top down give back license?
-Anyone using the API has to provide access of their plugin/modification to ALL end users IF they release it publicly. Private plugins/modifications are subject to a different license or clause. This will prevent devs from picking and choosing who can use their software that they publicly released. Don¡¯t hurt the end user.
-I¡¯m not sure, if this will work, due to the fact that servers want, and have to be unique, e.g. i don¡¯t like end-users being able to clone my games, and run them themselves after being awake for three days straight, writing a new gamemode.
+Anyone using the API has to provide access of their plugin/modification to ALL end users IF they release it publicly. Private plugins/modifications are subject to a different license or clause. This will prevent devs from picking and choosing who can use their software that they publicly released. Donâ€™t hurt the end user.
+Iâ€™m not sure, if this will work, due to the fact that servers want, and have to be unique, e.g. i donâ€™t like end-users being able to clone my games, and run them themselves after being awake for three days straight, writing a new gamemode.
 What license are we going to use?
 3-clause BSD, LGPL, Apache 2.0, MIT, etc.
 Should we use a contributor license agreement (CLA)?
 This would re-assign the copyright ownership of contributions to the project.
 We would need a means of recording this data.
 VCS like git / mercurial / svn / etc to track commits by project members.
-Having PR¡¯s accepted would require agreeing to a CLA?
+Having PRâ€™s accepted would require agreeing to a CLA?
 ##Requirements
 Can be used with an unmodified vanilla Minecraft client.
-Has an abstraction layer. For example, rather than having to refer to, say, Minecraft¡¯s Player object (or class specifically), plugins/mods refer to a separate independent Player object in Java. This means that if the Player object is removed from Minecraft, plugins/mods would not break because it was referring to this ¡°virtual¡± Player object.
+Has an abstraction layer. For example, rather than having to refer to, say, Minecraftâ€™s Player object (or class specifically), plugins/mods refer to a separate independent Player object in Java. This means that if the Player object is removed from Minecraft, plugins/mods would not break because it was referring to this â€œvirtualâ€ Player object.
 Established methods of accepting contributions (i.e. pull requests).
 Absolutely cannot utilize GPL (and possibly LGPL) so we can avoid having to face this same situation again.
 Possibility of MIT?
 <asie> I'd say LGPL with a CLA that forbids anyone from closing the source code of your contribution.
-You can¡¯t ¡®close¡¯ the source of a GPL contribution.
+You canâ€™t â€˜closeâ€™ the source of a GPL contribution.
 ##Requirements to Consider
 UNIT TESTING!!!
-As an ex-enterprise ¡®developer¡¯ we can¡¯t start a new project at a scale like this, without proper testing, we should use a good testing suite, which allows us to ensure both bleeding, and stable builds are stable as-is.
-Client and Server modification so users don¡¯t require using multiple systems.
+As an ex-enterprise â€˜developerâ€™ we canâ€™t start a new project at a scale like this, without proper testing, we should use a good testing suite, which allows us to ensure both bleeding, and stable builds are stable as-is.
+Client and Server modification so users donâ€™t require using multiple systems.
 Quality Documentation, allowing the community to pick it up, easily.
-We really really need to provide up to date documentation, allowing new users to quickly learn how ¡®it¡¯ works.
+We really really need to provide up to date documentation, allowing new users to quickly learn how â€˜itâ€™ works.
 Possibly migration guides, and tips on migrating from old systems to this system.
 Central Repository for plugins/mods.
 Why should we have one? (FEEDBACK)
@@ -198,7 +198,7 @@ https://ci.visualillusionsent.net/job/CanaryLib/javadoc/
 SpoutAPI - https://github.com/SpoutDev/Spout/tree/master/api/src/main/java/org/spout/api
 (javadocs/thanks Kashike) - http://vq.lc/ (all) http://vq.lc/api/ (API)
 https://github.com/SpoutDev/Spout/blob/master/LICENSE.txt 
-LGPL unless commits are 6 months old, then it is MIT. All of SpoutAPI¡¯s current code is MIT
+LGPL unless commits are 6 months old, then it is MIT. All of SpoutAPIâ€™s current code is MIT
 Except for the BukkitBridge compat layer which is GPL.
 TridentSDK - https://github.com/TridentSDK
 No one has seriously considered trident
