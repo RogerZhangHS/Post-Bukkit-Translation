@@ -6,34 +6,34 @@
     你可以点击这里查看调查的结果：https://docs.google.com/forms/d/1lQ0eXyfaEHJPutFPAtNQk2XQteqHSKT4OJXWGFNfVio/viewanalytics
 
 ##话题是什么？
-    净室软件开发？	     
-	    不。为什么？在我们所知的范围内并没有任何Minecraft的Java接口支持净室软件开发。所以，我们完全逃不掉EULA的限制。
-        不。太多开发者们已经深入研究了Minecraft源代码太多了，完全算不上净室软件开发的范畴了。
+  * **净室软件开发？**
+    * 不。为什么？在我们所知的范围内并没有任何Minecraft的Java接口支持净室软件开发。所以，我们完全逃不掉EULA的限制。
+    * 不。太多开发者们已经深入研究了Minecraft源代码太多了，完全算不上净室软件开发的范畴了。
 
-    在目前的MOD平台上构建？
-        FORGE。为什么？早已经建立的玩家社群，避免了从头开始的困境。
+  * **在目前的MOD平台上构建？**
+    * FORGE。为什么？早已经建立的玩家社群，避免了从头开始的困境。
 
-    用什么API？
-        CANARY或SPOUT。详情请看调查问卷结果。
-		
+  * **用什么API？**
+    * CANARY或SPOUT。详情请看调查问卷结果。
+
 ##目录：
-    发生了什么？
-    目录
-    最受欢迎的意见
-    所有可用的意见
-    备注
-    问题
-    要求
-    引用
-    API比较
-	
+  * 发生了什么？
+  * 目录
+  * 最受欢迎的意见
+  * 所有可用的意见
+  * 备注
+  * 问题
+  * 要求
+  * 引用
+  * API比较
+
 ##热门方案
 当前看来比较好的解决方案是写一个新的抽象API（无需1：1的参照Minecraft对象）。和Bukkit有点像，但是是基于Forge或者Glowstone。
-    * Forge是一个已经有很多Mod而且当前非常流行的服务器/客户端API。并且Forge平台当前已经有非常大的社区了。
-    * 但是因为Forge并非“抽象API”。一旦在Mojang在新老两个版本之间做出太多大改动，Forge将无法跨版本使用。因此如果新的API基于Forge，这个问题必须解决掉。
-    * 如果让Forge模组使用“抽象API”将可以像Bukkit使用NMS一样而达到Forge版本无关性。这样的话模组开发人员就有了更加强大工具来开发模组。
-      * 这个说法是错误的。使用抽象层就像Bukkit实际API一样而且不直接操作NMS。事实上并没有明确的说“抽象”，所以和“使用NMS”来说没有可比性。Forge是使用NMS的，任何顶层的抽象将被更多的束缚（很严重的束缚）。
-Glowstone is a standalone reimplementation of the MC server. It is not based off of Mojang’s code like Bukkit, Forge, Spigot, and Canary. 
+  * Forge是一个已经有很多Mod而且当前非常流行的服务器/客户端API。并且Forge平台当前已经有非常大的社区了。
+  * 但是因为Forge并非“抽象API”。一旦在Mojang在新老两个版本之间做出太多大改动，Forge将无法跨版本使用。因此如果新的API基于Forge，这个问题必须解决掉。
+  * 如果让Forge模组使用“抽象API”将可以像Bukkit使用NMS一样而达到Forge版本无关性。这样的话模组开发人员就有了更加强大工具来开发模组。
+    * 这个说法是错误的。使用抽象层就像Bukkit实际API一样而且不直接操作NMS。事实上并没有明确的说“抽象”，所以和“使用NMS”来说没有可比性。Forge是使用NMS的，任何顶层的抽象将被更多的束缚（很严重的束缚）。
+  * Glowstone 是一个独立的is a standalone reimplementation of the MC server. It is not based off of Mojang’s code like Bukkit, Forge, Spigot, and Canary. 
 It has been suggested that whichever API the community agrees upon could also be built on top of Glowstone. 
 Currently Glowstone already implements the Bukkit API and this is possible because Glowstone does not make use of proprietary Minecraft code.
 Simply switching to a standalone re-implementation of the MC server is not an option for a lot of people because it will likely not be up to date in regards to new MC features, which is a problem when a lot of people are running regular creative or survival servers.
