@@ -43,62 +43,60 @@ While a brand new API could be written, it has been suggested that either the AP
 
 
 ##所有可用的意见
-所有可用的意见
 注：某些建议是由其他服务端的开发者所撰写的，由此，可能会有一些偏见。
-1、换至Bukkit的竞争对手
-    a、换至Canary平台
-            i.Canary包含官方的 minecraft_server ，因此会违反服务条款（重要）
-            ii.玩家社群并不大
-            iii.使用BSD 3-Clause License
-            iv.人们会想将Canary和Forge一起使用，Canary Lib可以被用作未来的类似于Cauldron服务端的东西。（Canary团队正在关注）
-            v.他们的网站上文档详细
-            vi.可以使用抽象层，就像Bukkit具有的那样。包含许多Bukkit本身具有的功能，同时也有许多被需要的API功能
-                a. NBT仅仅是一小部分
-            vii.团队建立时间较长
-                尽管如此，但团队人数较少，并不能十分迅速的开发
-            viii.一些在Bukkit平台上十分受欢迎的插件也同样兼容Canary
-    b、换至 Minecraft Forge （并内置一个API）
-            i.较大的玩家社群，被许多MOD所使用（加分）
-                与Bukkit有着不同的思想，Forge通过使用API尝试暴露尽可能多的NMS代码。但是Bukkit将所有东西都隐藏在抽象层后面。
-            ii.需要一个经过修改的客户端才能使用，但根据LexManos，可能在1.8后就不再需要了
-			iii.每过一个版本，特定种类的MOD就不能够使用（重要）
-			    Forge现在和今后都不会提供抽象层，因此哪怕是一些很小的Minecraft更新，MOD作者也需要更新他的作品。
-				srgname OBF帮助。但并没有像Bukkit里面那样的write-once-ignore之类的东西。
-				当然这些仅限于大型的计划，一些小型的MOD仅仅使用Forge API的接口
-			iv.在Bukkit和Spigot上面的性能表现欠佳
-			    可以被'修复'，但需要时间和人手
-				    a.我们能尝试使用Spigot的优化嘛？
-					    i.可以，但需要书面许可
-					b.我们能使用现在已有的优化程序嘛？
-					    i.首先我们需要清楚这些优化程序能不能让服务端的性能表现像当前的服务端一样。要不然这完全没有意义
-						ii.有可能性，但我们也需要提前询问。并且我们要搞清楚我们所做的事儿有多少侵略性。
-			v.对于开发者的易用性差
-			    有一些（或很多）开发者认为Forge难以使用
-				缺少正确的PR(Post/Request)处理系统
-				    a.如果社群足够大，我们或许可以向LexManos**施加压力**？
-				尽管可以被修复，但它缺少足够的文档
-				    a.玩家们自行制作的教程可以在论坛上查看。但如果有官方的教程还是最好的
-			vi.缺少与Bukkit相同的功能，但可以被修复
-2.切换到一个独立的净室开发的服务端
-    a、换至 Glowstone
-	        i.这个计划已存在很久，并且也与目前版本同步
+  * 1、换至Bukkit的竞争对手
+    * a、换至Canary平台
+      * i.Canary包含官方的 minecraft_server ，因此会违反服务条款（重要）
+      * ii.玩家社群并不大
+      * iii.使用BSD 3-Clause License
+      * iv.人们会想将Canary和Forge一起使用，Canary Lib可以被用作未来的类似于Cauldron服务端的东西。（Canary团队正在关注）
+      * v.他们的网站上文档详细
+      * vi.可以使用抽象层，就像Bukkit具有的那样。包含许多Bukkit本身具有的功能，同时也有许多被需要的API功能
+        * NBT仅仅是一小部分
+      * vii.团队建立时间较长
+        * 尽管如此，但团队人数较少，并不能十分迅速的开发
+          * viii.一些在Bukkit平台上十分受欢迎的插件也同样兼容Canary
+    * b、换至 Minecraft Forge （并内置一个API）
+      * i.较大的玩家社群，被许多MOD所使用（加分）
+        * 与Bukkit有着不同的思想，Forge通过使用API尝试暴露尽可能多的NMS代码。但是Bukkit将所有东西都隐藏在抽象层后面。
+      * ii.需要一个经过修改的客户端才能使用，但根据LexManos，可能在1.8后就不再需要了
+      * iii.每过一个版本，特定种类的MOD就不能够使用（重要）
+        * Forge现在和今后都不会提供抽象层，因此哪怕是一些很小的Minecraft更新，MOD作者也需要更新他的作品。
+        * srgname OBF帮助。但并没有像Bukkit里面那样的write-once-ignore之类的东西。
+        * 当然这些仅限于大型的计划，一些小型的MOD仅仅使用Forge API的接口
+      * iv.在Bukkit和Spigot上面的性能表现欠佳
+        * 可以被'修复'，但需要时间和人手
+        * a.我们能尝试使用Spigot的优化嘛？
+          * i.可以，但需要书面许可
+        * b.我们能使用现在已有的优化程序嘛？
+          * i.首先我们需要清楚这些优化程序能不能让服务端的性能表现像当前的服务端一样。要不然这完全没有意义
+          * ii.有可能性，但我们也需要提前询问。并且我们要搞清楚我们所做的事儿有多少侵略性。
+      * v.对于开发者的易用性差
+        * 有一些（或很多）开发者认为Forge难以使用
+        * 缺少正确的PR(Post/Request)处理系统
+          * a.如果社群足够大，我们或许可以向LexManos**施加压力**？
+        * 尽管可以被修复，但它缺少足够的文档
+          * a.玩家们自行制作的教程可以在论坛上查看。但如果有官方的教程还是最好的
+      * vi.缺少与Bukkit相同的功能，但可以被修复
+  * 2.切换到一个独立的净室开发的服务端
+    * a、换至 Glowstone
+      * i.这个计划已存在很久，并且也与目前版本同步
 			    缺少极大量的功能，比如说W-Gen
-			ii.基本上已经与Minecraft的新功能脱节了，因为它是完全独立的从零开始的Minecraft服务端（重要）
-			iii.可以使用Bukkit API
-			iv.包含Bukkit API。可能会有许可方面的问题（重要）
-			v.与Forge Mod不兼容（重要）
-    b、换至MCServer
-	        i.使用C++编写
-			ii.可能十分有效率（加分）
-			iii.除非Java提供绑定，目前所有现有的Java代码必须在Lua下重写（重要）
-			iv.多协议支持，可以从Minecraft 1.2直接支持到Minecraft1.7.10（加分）
-			v.与Forge Mod不兼容（重要）
-			Switch to MCServer
-    c、换至Craft.net
-	        i.使用C#编写
-			ii.与Forge Mod不兼容（重要）
-	d、换至Spout
-	        i.
+      * ii.基本上已经与Minecraft的新功能脱节了，因为它是完全独立的从零开始的Minecraft服务端（重要）
+      * iii.可以使用Bukkit API
+      * iv.包含Bukkit API。可能会有许可方面的问题（重要）
+      * v.与Forge Mod不兼容（重要）
+    * b、换至MCServer
+      * i.使用C++编写
+      * ii.可能十分有效率（加分）
+      * iii.除非Java提供绑定，目前所有现有的Java代码必须在Lua下重写（重要）
+      * iv.多协议支持，可以从Minecraft 1.2直接支持到Minecraft1.7.10（加分）
+      * v.与Forge Mod不兼容（重要）
+    * c、换至Craft.net
+      i.使用C#编写
+      ii.与Forge Mod不兼容（重要）
+    * d、换至Spout
+      i.
 Switch to Craft.net
 Written in C#
 Cannot combine with Forge mods (MAJOR)
