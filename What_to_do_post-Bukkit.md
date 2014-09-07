@@ -58,12 +58,23 @@ While a brand new API could be written, it has been suggested that either the AP
                 尽管如此，但团队人数较少，并不能十分迅速的开发
             viii.一些在Bukkit平台上十分受欢迎的插件也同样兼容Canary
     b、换至 Minecraft Forge （并内置一个API）
-Large community, used by many gameplay mods (PLUS)
-Differing ideologies from bukkit, forge exposed as much of the NMS code as possible in the form of hooks, whereas bukkit hides everything behind an abstraction layer
-Currently requires a modded client (MAJOR) but will be fixed for 1.8, and possibly 1.7 (MAYBE) according to LexManos
-Certain types of projects for Forge break every time there is an MC update (MAJOR)
-Forge does not, and will not,[3] offer an abstraction layer, hence requiring authors to update every minor MC version
-srgname obf helps, but there is no write-once-ignore thing like on Bukkit
+            i.较大的玩家社群，被许多MOD所使用（加分）
+                与Bukkit有着不同的思想，Forge通过使用API尝试暴露尽可能多的NMS代码。但是Bukkit将所有东西都隐藏在抽象层后面。
+            ii.需要一个经过修改的客户端才能使用，但根据LexManos，可能在1.8后就不再需要了
+			iii.每过一个版本，特定种类的MOD就不能够使用（重要）
+			    Forge现在和今后都不会提供抽象层，因此哪怕是一些很小的Minecraft更新，MOD作者也需要更新他的作品。
+				srgname OBF帮助。但并没有像Bukkit里面那样的write-once-ignore之类的东西。
+				当然这些仅限于大型的计划，一些小型的MOD仅仅使用Forge API的接口
+			iv.在Bukkit和Spigot上面的性能表现欠佳
+			    可以被'修复'，但需要时间和人手
+				    a.我们能尝试使用Spigot的优化嘛？
+					    i.可以，但需要书面许可
+					b.我们能使用现在已有的优化程序嘛？
+					    i.首先我们需要清楚这些优化程序能不能让服务端的性能表现像当前的服务端一样。要不然这完全没有意义
+						ii.有可能性，但我们也需要提前询问。并且我们要搞清楚我们所做的事儿有多少侵略性。
+			v.对于开发者的易用性差
+			    有一些（或很多）开发者认为Forge难以使用
+				
 This only applies to LARGE projects, some really tiny mods only interface with Forge API
 Performance is subpar to both Bukkit and Spigot
 Can be ‘fixed’ but will need both time, and manpower, mostly time.
