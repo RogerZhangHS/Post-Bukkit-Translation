@@ -74,36 +74,31 @@ While a brand new API could be written, it has been suggested that either the AP
 						ii.有可能性，但我们也需要提前询问。并且我们要搞清楚我们所做的事儿有多少侵略性。
 			v.对于开发者的易用性差
 			    有一些（或很多）开发者认为Forge难以使用
-				
-This only applies to LARGE projects, some really tiny mods only interface with Forge API
-Performance is subpar to both Bukkit and Spigot
-Can be ‘fixed’ but will need both time, and manpower, mostly time.
-Can we attempt to salvage spigot patches?
-Yes, we could but we should ask written permission (FEEDBACK)
-Can we use existing performance enhancement projects? (FEEDBACK)
-Reason i’m putting it here, we need to know if we can easily get the server up to the known performance current ‘generation’ servers have, otherwise there won’t be any added value.
-Might be possible, just that we might have to ask first. There’s also the question of how invasive things should be
-Not very developer friendly
-Considered “hard to get into” by some (or many?) developers
-Lacks proper PR processing systems, unlike bukkit.
-If the community is big enough, we can possibly apply pressure on LexManos?
-Lack of documentation, though can be fixed
-Community-made tutorials available on forums, though nothing beats the official ones
-Lacks full Bukkit equivalents though this can be fixed
-Switch to an independent clean-room implementation:
-Switch to Glowstone
-Project has been around for a long time, actually pretty up to date.
-Missing very large portions of functionality, such as W-Gen, 
-Generally out of date with Minecraft’s newer features because it is an independent from-scratch re-implementation of Minecraft’s mechanics (MAJOR)
-Can use Bukkit API (PLUS)
-Includes Bukkit API.  Possible License restrictions/issues (MAJOR)
-Cannot combine with Forge mods (MAJOR)
-Switch to MCServer
-Written in C++
-Possibly very fast (PLUS)
-Unless a Java binding is added, all current Java code would have to be re-written in Lua (MAJOR)
-Multi Protocol! Minecraft 1.2 all the way up to Minecraft 1.7.10 (PLUS)
-Cannot combine with Forge mods (MAJOR)
+				缺少正确的PR(Post/Request)处理系统
+				    a.如果社群足够大，我们或许可以向LexManos**施加压力**？
+				尽管可以被修复，但它缺少足够的文档
+				    a.玩家们自行制作的教程可以在论坛上查看。但如果有官方的教程还是最好的
+			vi.缺少与Bukkit相同的功能，但可以被修复
+2.切换到一个独立的净室开发的服务端
+    a、换至 Glowstone
+	        i.这个计划已存在很久，并且也与目前版本同步
+			    缺少极大量的功能，比如说W-Gen
+			ii.基本上已经与Minecraft的新功能脱节了，因为它是完全独立的从零开始的Minecraft服务端（重要）
+			iii.可以使用Bukkit API
+			iv.包含Bukkit API。可能会有许可方面的问题（重要）
+			v.与Forge Mod不兼容（重要）
+    b、换至MCServer
+	        i.使用C++编写
+			ii.可能十分有效率（加分）
+			iii.除非Java提供绑定，目前所有现有的Java代码必须在Lua下重写（重要）
+			iv.多协议支持，可以从Minecraft 1.2直接支持到Minecraft1.7.10（加分）
+			v.与Forge Mod不兼容（重要）
+			Switch to MCServer
+    c、换至Craft.net
+	        i.使用C#编写
+			ii.与Forge Mod不兼容（重要）
+	d、换至Spout
+	        i.
 Switch to Craft.net
 Written in C#
 Cannot combine with Forge mods (MAJOR)
