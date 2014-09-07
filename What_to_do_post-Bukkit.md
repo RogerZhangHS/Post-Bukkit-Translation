@@ -2,8 +2,8 @@
 这个文档受许多从#nextstep频道中来的具有共识的人们而编辑。在加入讨论之前请先请仔细阅读整个文档，因为你所提出的意见可能早已被提出。
 发生了什么？
 
-    请务必帮助我们完成这份调查！（需要翻墙）：http://bit.ly/1qnO8Gm
-    你可以点击这里查看调查的结果：https://docs.google.com/forms/d/1lQ0eXyfaEHJPutFPAtNQk2XQteqHSKT4OJXWGFNfVio/viewanalytics
+  **请务必帮助我们完成这份调查！（需要翻墙）：http://bit.ly/1qnO8Gm**
+  _你可以点击这里查看调查的结果：https://docs.google.com/forms/d/1lQ0eXyfaEHJPutFPAtNQk2XQteqHSKT4OJXWGFNfVio/viewanalytics_
 
 ##话题是什么？
   * **净室软件开发？**
