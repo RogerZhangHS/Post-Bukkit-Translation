@@ -1,31 +1,32 @@
-#What to do if Bukkit doesn’t survive
-We’re having a open discussion on what we ‘as the community’ could/should do, in the current state of events, you can join the IRC via irc.esper.net 6667 #nextstep.
-This documented is edited by various people from #nextstep based on consensus. Please read this entire document before joining the discussion, as your point(s) might have already been raised.
-##What’s Happening
-Please complete this survey and input your thoughts: http://bit.ly/1qnO8Gm
-This survey is inherently flawed. Incorrect definition of clean-room, etc.
-Since Bukkit is not quite dead, we are all partly waiting to see how the current situation plays out.
-Responses to survey: https://docs.google.com/forms/d/1lQ0eXyfaEHJPutFPAtNQk2XQteqHSKT4OJXWGFNfVio/viewanalytics 
-##Topics Covered
-Clean room?
-NO. Why: There is, to our knowledge, no Java supporting clean room (in the strictest meaning of the word) implementation of Minecraft. Therefore, it would not be free from EULA restrictions.
-NO. Too many developers have dug into MC source to have anything be considered clean room.
-Build upon an existing modding platform?
-FORGE. Why: Already an established community, and saves the work of writing from scratch.
-Implement what API?
-CANARY OR SPOUT. See the results of the survey.
-##Table of Contents?
-What’s Happening
-Table of Contents
-Most Popular Option
-All Available Options
-Notes
-Questions
-Requirements
-Requirements to Consider
-Citations
-API Comparison?
+我们正在对于我们的之后的未来进行一项公众调查，以让我们决定我们之后的何去何从，在目前这个情况下，你可以加入IRC频道 irc.esper.net 6667 #nextstep。
+这个文档受许多从#nextstep频道中来的具有共识的人们而编辑。在加入讨论之前请先请仔细阅读整个文档，因为你所提出的意见可能早已被提出。
+发生了什么？
 
+    请务必帮助我们完成这份调查！（需要翻墙）：http://bit.ly/1qnO8Gm
+    你可以点击这里查看调查的结果：https://docs.google.com/forms/d/1lQ0eXyfaEHJPutFPAtNQk2XQteqHSKT4OJXWGFNfVio/viewanalytics
+
+##话题是什么？
+    净室软件开发？	     
+	    不。为什么？在我们所知的范围内并没有任何Minecraft的Java接口支持净室软件开发。所以，我们完全逃不掉EULA的限制。
+        不。太多开发者们已经深入研究了Minecraft源代码太多了，完全算不上净室软件开发的范畴了。
+
+    在目前的MOD平台上构建？
+        FORGE。为什么？早已经建立的玩家社群，避免了从头开始的困境。
+
+    用什么API？
+        CANARY或SPOUT。详情请看调查问卷结果。
+		
+##目录：
+    发生了什么？
+    目录
+    最受欢迎的意见
+    所有可用的意见
+    备注
+    问题
+    要求
+    引用
+    API比较
+	
 ##Most Popular Option
 The prevailing opinion so far is to write a new abstracted API (as in it does not refer to Minecraft objects 1:1), sort of like Bukkit, on top of Minecraft Forge and possibly also Glowstone.
 Forge is a client and server API that is popular with many gameplay mods. It already has a large community.
@@ -40,24 +41,23 @@ This is speculative, for instance features were available in Spout while feature
 While a brand new API could be written, it has been suggested that either the API of Spout (NOT Spoutcraft) or Canary can be re-used for this effort, which saves everyone work. It does not mean that whatever the resulting project would be would ingest significant concrete code from either projects.
 
 
-
-##All Available Options
-NOTE: Some of the comments are written by developers of the respective projects. As such, there may be some bias.
-Switch to a competitor of Bukkit:
-Switch to Canary
-Contains the official minecraft_server which currently violates the TOS (MAJOR)
-Community is very small now
-This can be argued for any option, excluding forge, and should not be a significant turn off
-BSD 3-Clause License
-People will want to use Canary with Forge, Canary Lib can be used as a base for a future Cauldron like system (being looked into by Canary team)
-Well-documented API on their site
-Features an abstraction layer, much like the one Bukkit had
-Contains many features that were in Bukkit, and also features some much requested API features
-NBT just for starters
-Established team who has been at this for quite some time
-Team is quite small, though, and not able to commit much time to development
-Some plugins already work for Canary that are also fairly popular amongst bukkit servers
-Switch to Minecraft Forge (and implement an API)
+
+##所有可用的意见
+所有可用的意见
+注：某些建议是由其他服务端的开发者所撰写的，由此，可能会有一些偏见。
+1、换至Bukkit的竞争对手
+    a、换至Canary平台
+            i.Canary包含官方的 minecraft_server ，因此会违反服务条款（重要）
+            ii.玩家社群并不大
+            iii.使用BSD 3-Clause License
+            iv.人们会想将Canary和Forge一起使用，Canary Lib可以被用作未来的类似于Cauldron服务端的东西。（Canary团队正在关注）
+            v.他们的网站上文档详细
+            vi.可以使用抽象层，就像Bukkit具有的那样。包含许多Bukkit本身具有的功能，同时也有许多被需要的API功能
+                a. NBT仅仅是一小部分
+            vii.团队建立时间较长
+                尽管如此，但团队人数较少，并不能十分迅速的开发
+            viii.一些在Bukkit平台上十分受欢迎的插件也同样兼容Canary
+    b、换至 Minecraft Forge （并内置一个API）
 Large community, used by many gameplay mods (PLUS)
 Differing ideologies from bukkit, forge exposed as much of the NMS code as possible in the form of hooks, whereas bukkit hides everything behind an abstraction layer
 Currently requires a modded client (MAJOR) but will be fixed for 1.8, and possibly 1.7 (MAYBE) according to LexManos
