@@ -27,12 +27,12 @@
     引用
     API比较
 	
-##Most Popular Option
-The prevailing opinion so far is to write a new abstracted API (as in it does not refer to Minecraft objects 1:1), sort of like Bukkit, on top of Minecraft Forge and possibly also Glowstone.
-Forge is a client and server API that is popular with many gameplay mods. It already has a large community.
-Because Forge features no “abstraction API,” a mod/plugin written for Forge may break between MC versions if Mojang makes too many large changes. Therefore, if an API is written on top of Forge, this problem should be alleviated.
-Forge mods using this abstraction API will be able to use the rest of Forge, which is akin to using NMS in Bukkit, except much more power will be afforded to the modder.
-This statement is wrong. Using an abstraction layer is like using Bukkit’s actual API and not touching anything in NMS.  There’s no spec for said abstraction, so it can’t be compared to using NMS.  Forge by itself IS using NMS, any abstraction on top of it is going to be more limiting (and most likely extremely)
+##热门方案
+当前看来比较好的解决方案是写一个新的抽象API（无需1：1的参照Minecraft对象）。和Bukkit有点像，但是是基于Forge或者Glowstone。
+    * Forge是一个已经有很多Mod而且当前非常流行的服务器/客户端API。并且Forge平台当前已经有非常大的社区了。
+    * 但是因为Forge并非“抽象API”。一旦在Mojang在新老两个版本之间做出太多大改动，Forge将无法跨版本使用。因此如果新的API基于Forge，这个问题必须解决掉。
+    * 如果让Forge模组使用“抽象API”将可以像Bukkit使用NMS一样而达到Forge版本无关性。这样的话模组开发人员就有了更加强大工具来开发模组。
+      * 这个说法是错误的。使用抽象层就像Bukkit实际API一样而且不直接操作NMS。事实上并没有明确的说“抽象”，所以和“使用NMS”来说没有可比性。Forge是使用NMS的，任何顶层的抽象将被更多的束缚（很严重的束缚）。
 Glowstone is a standalone reimplementation of the MC server. It is not based off of Mojang’s code like Bukkit, Forge, Spigot, and Canary. 
 It has been suggested that whichever API the community agrees upon could also be built on top of Glowstone. 
 Currently Glowstone already implements the Bukkit API and this is possible because Glowstone does not make use of proprietary Minecraft code.
