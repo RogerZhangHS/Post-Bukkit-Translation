@@ -33,10 +33,12 @@
   * 但是因为Forge并非“抽象API”。一旦在Mojang在新老两个版本之间做出太多大改动，Forge将无法跨版本使用。因此如果新的API基于Forge，这个问题必须解决掉。
   * 如果让Forge模组使用“抽象API”将可以像Bukkit使用NMS一样而达到Forge版本无关性。这样的话模组开发人员就有了更加强大工具来开发模组。
     * 这个说法是错误的。使用抽象层就像Bukkit实际API一样而且不直接操作NMS。事实上并没有明确的说“抽象”，所以和“使用NMS”来说没有可比性。Forge是使用NMS的，任何顶层的抽象将被更多的束缚（很严重的束缚）。
-  * Glowstone 是一个独立的is a standalone reimplementation of the MC server. It is not based off of Mojang’s code like Bukkit, Forge, Spigot, and Canary. 
-It has been suggested that whichever API the community agrees upon could also be built on top of Glowstone. 
-Currently Glowstone already implements the Bukkit API and this is possible because Glowstone does not make use of proprietary Minecraft code.
-Simply switching to a standalone re-implementation of the MC server is not an option for a lot of people because it will likely not be up to date in regards to new MC features, which is a problem when a lot of people are running regular creative or survival servers.
+  * Glowstone 是一个独立的MC服务器实现。和Bukkit、Forge、Spigot、Canary不同，它不依托于Mojang的源码。
+    * 有人建议无论社区同意哪一种API，API都应当建立在Glowstone之上。
+    * 当前Glowstone已经引入了Bukkit API原因是Glowstone并未直接使用Minecraft专利的源码。
+
+  * 单纯的使用一个独立的MC Server重实现并不适用于所有人。因为它可能无法获取最新的MC功能。这对于好多人来说是个问题，因为他们单纯的想建立一个普通的创造服或者生存服。
+  Simply switching to a standalone re-implementation of the MC server is not an option for a lot of people because it will likely not be up to date in regards to new MC features, which is a problem when a lot of people are running regular creative or survival servers.
 This is speculative, for instance features were available in Spout while features were still in prerelease for the MC server when the project is active.  This is all dependent on developer activity and quickness of patch updates along with complexity of the features.
 While a brand new API could be written, it has been suggested that either the API of Spout (NOT Spoutcraft) or Canary can be re-used for this effort, which saves everyone work. It does not mean that whatever the resulting project would be would ingest significant concrete code from either projects.
 
