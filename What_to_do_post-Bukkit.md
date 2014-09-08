@@ -102,7 +102,7 @@
       * iv.为了兼容而设计的BukkitBridge模块（重要）有一些性能上的问题 BukkitBridge所以需要慎用。
       * v.不同于其他的API首先需要解决客户端的问题，Spout的客户端代码得去掉一部分。甚至需要合并一些原版服务端代码才能完成一个MinecraftServer的功能。
       * vi.无法与Forge mods兼容（重要）
-  * 2.将Bukkit API引入到现有的实现中（Forge，Canary）
+  * 3.将Bukkit API引入到现有的实现中（Forge，Canary）
     * d.BukkitForge
       * i.在Forge的基础之上。
       * ii.曾经名噪一时，但是最终在1.5.2被抛弃（重要）
