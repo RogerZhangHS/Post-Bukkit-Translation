@@ -139,10 +139,12 @@
     * b.Likely very fast to update (MAJOR)
     * c.Very limited as to what can be done (MAJOR)
       * i.Can only do what can be done by modifying network packets or reusing what can be done with command blocks 
+
 #Notes
  * With nearly everything at this point in the Minecraft community being written in Java, a Java based server would probably gain the most support.
  * Using the current minecraft-server.jar is the easiest way to go, distributing patches which patch the server-code to insert ‘our’ code, allows experienced users to use java reflection to change base code, and use things we haven’t implemented in the API yet.
  * Vanilla clients need to be able to connect to it. Quite simply, if we’re looking for a post-Bukkit option, it’ll have to be this way. (MAJOR)
+
 #Questions
   * 1.Are we going to stick to ONE protocol, or are we planning to be MULTI protocol.
     * a.Only applies if we’re going to write our own software.
