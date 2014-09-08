@@ -107,23 +107,23 @@
       * i.在Forge的基础之上。
       * ii.曾经名噪一时，但是最终在1.5.2被抛弃（重要）
       * iii.代码中依然保留着Bukkit的API-可能会受到许可的约束等问题。（重要）
-  * 4.Start anew and implement a new API or the Bukkit API
-    * a.Switch to TridentSDK
-      * i.Somewhat recent, however if we wanted to start with a small base this would be the way to go
-      * ii.Bad idea - Chunkr. This project is too immature
-    * b.Start our own project
-      * i.Lots, and lots of work (MAJOR)
-      * ii.Should be partly, or mostly compatible using the current api’s
-      * iii.Ability to pick a good licence, possibly GNU? GPL? LGPL? MIT?!
-      * iv.This would allow us the most freedom with what we’d want to do moving forward
-      * v.The possibility to remap existing bukkit plugins to new API, with 90+%? compatibility (FEEDBACK)
-      * vi.Would it be possible to integrate with Forge API?
-      * vii.Should be transparent and open towards the community
-5.Runtime patch with current Bukkit and Craftbukkit code (i.e. Mojang’s code is never distributed in the same binary as the GPL code -- rather, it is combined when the user runs the server)
+  * 4.启动一个新项目并使用Bukkit API或者新的API
+    * a.（_否决的_）迁移至TridentSDK
+      * i.虽然只是一个最近才兴起的小项目，但这同样也是一个方案。
+      * ii._坏主意！_ - Chunkr. 这个项目太不成熟了！
+    * b.我们自己来做！
+      * i.繁重如山的工作量（重要）
+      * ii.应该部分的/很大程度上兼容现在已有的API
+      * iii.使用什么许可最合适？GNU？ GPL？ LGPL？ MIT？
+      * iv.这样可以使我们更加自由的决定工作方向
+      * v.重新排序现有的API至新的API的可能性？90+%？兼容性？（反馈）
+      * vi.需要集成Forge API？
+      * vii.是否对社区完全透明开放？
+  * 5.Runtime patch with current Bukkit and Craftbukkit code (i.e. Mojang’s code is never distributed in the same binary as the GPL code -- rather, it is combined when the user runs the server)
     * a.Very dangerous in regards to Bukkit’s licensing situation (MAJOR)
     * b.Can use Bukkit API (PLUS)
       * i.Bukkit API is Mojang owned, may not be a plus
-6.Install patch with current Bukkit and Craftbukkit code  (i.e. Mojang’s code is never distributed in the same binary as the GPL code -- rather, it is combined via a simple installer, which allows users to build their own server, using our, and their own patches)
+  * 6.Install patch with current Bukkit and Craftbukkit code  (i.e. Mojang’s code is never distributed in the same binary as the GPL code -- rather, it is combined via a simple installer, which allows users to build their own server, using our, and their own patches)
     * a.Less dangerous, but still very dangerous in regards to Bukkit’s licensing situation  (MAJOR).
       * i.We can ‘ditch’ most if not all bukkit code, and use our own implementation, the default server already has most parts we need, all we need to add is a good API, which isn’t a whole lot of work, but certainly less work than writing a entire server from scratch, opinions?
         * Not sure whether it’s just a good idea, maybe keep the bukkit API and reimplement craftbukkit?
