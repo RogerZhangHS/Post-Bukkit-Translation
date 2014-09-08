@@ -39,8 +39,7 @@
 
   * 单纯的使用一个独立的MC Server重实现并不适用于所有人。因为它可能无法获取最新的MC功能。这对于好多人来说是个问题，因为他们单纯的想建立一个普通的创造服或者生存服。
   * 可以预见到的是，假设当项目启动之后某些在MC上依然还是预览版的功能在Spout就已经可用。但是这完全取决于开发者的速度和功能实现的难度。
-While a brand new API could be written, it has been suggested that either the API of Spout (NOT Spoutcraft) or Canary can be re-used for this effort, which saves everyone work. It does not mean that whatever the resulting project would be would ingest significant concrete code from either projects.
-
+ * 如果去写一个新的API的话，有些人认为使用Spout（不是Spoutcraft）或者Canary的API可以重用代码，这样可以节省很多的工作量。但是这并不意味着无论如何都将吸收他们大量的核心代码。
 
 
 ##所有可用的意见
