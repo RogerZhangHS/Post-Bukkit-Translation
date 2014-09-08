@@ -81,7 +81,7 @@
   * 2.切换到一个独立的净室开发的服务端
     * a、换至 Glowstone
       * i.这个计划已存在很久，并且也与目前版本同步
-			    缺少极大量的功能，比如说W-Gen
+                缺少极大量的功能，比如说W-Gen
       * ii.基本上已经与Minecraft的新功能脱节了，因为它是完全独立的从零开始的Minecraft服务端（重要）
       * iii.可以使用Bukkit API
       * iv.包含Bukkit API。可能会有许可方面的问题（重要）
@@ -93,27 +93,22 @@
       * iv.多协议支持，可以从Minecraft 1.2直接支持到Minecraft1.7.10（加分）
       * v.与Forge Mod不兼容（重要）
     * c、换至Craft.net
-      i.使用C#编写
-      ii.与Forge Mod不兼容（重要）
+      * i.使用C#编写
+      * ii.与Forge Mod不兼容（重要）
     * d、换至Spout
-      i.
-Switch to Craft.net
-Written in C#
-Cannot combine with Forge mods (MAJOR)
-Switch to Spout
-Currently not in active development. It is “continued” under the name flow-engine in the flow github repository. Either Spout or flow-engine would need to be forked.
-Out of date with Minecraft’s newer features because it is an independent from-scratch re-implementation of Minecraft’s mechanics (MAJOR)
-Out of the box, Spout is simply an engine (client/server) You need the Vanilla plugin to get Minecraft
-BukkitBridge module for compatibility has (MAJOR) performance problems given explicit design choices.
-Unless creating a client is desired, Spout would need to have its client portion removed. Might even consider merging Vanilla’s code into Spout to make it a true Minecraft server.
-Cannot combine with Forge mods (MAJOR)
-Implement the Bukkit API on top of an existing implementation (Forge, Canary)
-BukkitForge
-Built on top of Forge
-Has been around for some time, but abandoned since MC 1.5.2 (MAJOR)
-Code still contains bukkit API - Possible License restrictions/issues (MAJOR)
-Start anew and implement a new API or the Bukkit API
-Switch to TridentSDK
+      * i.当前的开发工作不在进行中，而是在由一个在Github上的flow-engine流仓库下"继续开发"中。Spout或者flow-engine其中之一必须被Fork。
+      * ii.与当前最新的Minecraft新版本功能已经完全脱节。原因是Spout是使用与Minecraft独立的功能重写。（重要）
+      * iii.即用，因为Spout只是单纯的引擎（客户端/服务端）,你需要原版插件即可使用。
+      * iv.为了兼容而设计的BukkitBridge模块（重要）有一些性能上的问题 BukkitBridge所以需要慎用。
+      * v.不同于其他的API首先需要解决客户端的问题，Spout的客户端代码得去掉一部分。甚至需要合并一些原版服务端代码才能完成一个MinecraftServer的功能。
+      * vi.无法与Forge mods兼容（重要）
+  * 2.将Bukkit API引入到现有的实现中（Forge，Canary）
+    * d、BukkitForge
+      * i.在Forge的基础之上。
+      * ii.曾经名噪一时，但是最终在1.5.2被抛弃（重要）
+      * iii.代码中依然保留着Bukkit的API-可能会受到许可的约束等问题。（重要）
+  * 4.写一个新的然后引入新的API或者BukkitAPI
+  * a、Switch to TridentSDK
 Somewhat recent, however if we wanted to start with a small base this would be the way to go
 Bad idea - Chunkr. This project is too immature
 Start our own project
