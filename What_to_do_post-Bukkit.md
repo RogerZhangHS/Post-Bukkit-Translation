@@ -121,14 +121,14 @@
       * vii.是否对社区完全透明开放？
   * 5.Runtime patch with current Bukkit and Craftbukkit code (i.e. Mojang’s code is never distributed in the same binary as the GPL code -- rather, it is combined when the user runs the server)
     * a.Very dangerous in regards to Bukkit’s licensing situation (MAJOR)
-    * b.Can use Bukkit API (PLUS)
+    * b.Can use Bukkit API（加分）
       * i.Bukkit API is Mojang owned, may not be a plus
   * 6.Install patch with current Bukkit and Craftbukkit code  (i.e. Mojang’s code is never distributed in the same binary as the GPL code -- rather, it is combined via a simple installer, which allows users to build their own server, using our, and their own patches)
     * a.Less dangerous, but still very dangerous in regards to Bukkit’s licensing situation  (MAJOR).
       * i.We can ‘ditch’ most if not all bukkit code, and use our own implementation, the default server already has most parts we need, all we need to add is a good API, which isn’t a whole lot of work, but certainly less work than writing a entire server from scratch, opinions?
         * Not sure whether it’s just a good idea, maybe keep the bukkit API and reimplement craftbukkit?
     * b.Possibly ‘more’ legal than distributing the minecraft-server.jar
-    * c.Can use Bukkit API (PLUS)
+    * c.Can use Bukkit API（加分）
   * 7.Wait until Mojang releases the API
     * a.May be a very long wait, potentially years (we waited 2, and are still waiting) (MAJOR)
     * b.It will be an step up from Bukkit in what you can do, but it will not compare to Forge, et. al. which permit client modding because you will not be able to execute your own code on the client 
@@ -140,12 +140,12 @@
     * c.Very limited as to what can be done (MAJOR)
       * i.Can only do what can be done by modifying network packets or reusing what can be done with command blocks 
 
-#Notes
+#备注
  * With nearly everything at this point in the Minecraft community being written in Java, a Java based server would probably gain the most support.
  * Using the current minecraft-server.jar is the easiest way to go, distributing patches which patch the server-code to insert ‘our’ code, allows experienced users to use java reflection to change base code, and use things we haven’t implemented in the API yet.
  * Vanilla clients need to be able to connect to it. Quite simply, if we’re looking for a post-Bukkit option, it’ll have to be this way. (MAJOR)
 
-#Questions
+#问题
   * 1.Are we going to stick to ONE protocol, or are we planning to be MULTI protocol.
     * a.Only applies if we’re going to write our own software.
     * b.Really doesn’t matter, as we can simply update the protocol as MC updates come out. Mojang will probably keep updating the protocol a tiny smudge in areas, making multi protocol nearly impossible anyways.
@@ -161,7 +161,7 @@
     * b.We would need a means of recording this data.
       * i.VCS like git / mercurial / svn / etc to track commits by project members.
       * ii.Having PR’s accepted would require agreeing to a CLA?
-#Requirements
+#要求
  * Can be used with an unmodified vanilla Minecraft client.
  * Has an abstraction layer. For example, rather than having to refer to, say, Minecraft’s Player object (or class specifically), plugins/mods refer to a separate independent Player object in Java. This means that if the Player object is removed from Minecraft, plugins/mods would not break because it was referring to this “virtual” Player object.
  * Established methods of accepting contributions (i.e. pull requests).
@@ -169,7 +169,7 @@
    * Possibility of MIT?
    * <asie> I'd say LGPL with a CLA that forbids anyone from closing the source code of your contribution.
      * You can’t ‘close’ the source of a GPL contribution.
-##Requirements to Consider
+##需要考虑的要求
  * UNIT TESTING!!!
    * As an ex-enterprise ‘developer’ we can’t start a new project at a scale like this, without proper testing, we should use a good testing suite, which allows us to ensure both bleeding, and stable builds are stable as-is.
  * Client and Server modification so users don’t require using multiple systems.
@@ -182,28 +182,28 @@
    * Peer review code.
    * Requires scalable infrastructure, possibly cost intensive, reason why bukkit went to curse then mojang
      * We can also use Amazon for scalability
-#Citations
- * All from #nextstep irc unless otherwise stated
-   * 1.<LexManos> Chunkr, Yes, in 1.8 I am going to compleetly re-write the FML login process. The end goal being to allow vanilla clients to connect to Forge server. Issue with doing it in 1.7.10 is the threadedness of the client combined with the fact that I do not want to break protocol compatibility.
-   * 2.< LexManos> I have strict guidelines to follow, keep mod compatiblity within a single MC version, new MC versions means I can break all the shit for the better.
+#引用
+ * 全部来自 #nextstep 的IRC频道，除非另加注明
+   * 1.<LexManos> Chunkr，没错，我要完全重写FML的登陆过程。最终的目标是允许原版客户端连接Forge服务端。在1.7.10中的问题是threadedness of the client和我并不想破坏协议兼容性的原因。
+   * 2.<LexManos> 我有很严格的规矩遵守，将mod的兼容性控制在单一一个MC版本中，而新的MC版本就意味着我可以把那些新的狗屁东西搞得更好了。
    * 3.<LexManos> Dark_Arc, To be able to provide a platform that extends the most functionality to the end modder allowing for proper content and expansion, a ever evolving and adaptible interface to vanilla code is required. People would be crazy to say that it is possible to do 1/2 the shit modders do with a massive abstraction layer while maintaining my sanity on the development end. So yes ideally there would be two projects as there have existed sofar. Forge which is low level giving everyone access to what they want, and a abstraction layer {Bukkit} that provides a stable platform for the smaller general purpose things. This is why Bukkit and Forge have existed in harmony for so long. If the time comes where we need to official find a replacement for Bukkit's abstraction layer. I am all for it and will hope that whomever develops that {or helps me develop it} will be willing to work with me on a closer level then the Bukkit team has. This is why before this fiasco I was working with Blood to get Cauldron into a more maintainable and easier to develop state.
-#API Comparison
+#API比较
  * Bukkit
-   * Anything that would utilize the Bukkit API would be subject to the whim of Mojang, as Mojang owns Bukkit and APIs are copyrightable, per Oracle vs Google. 
+   * 任何使用Bukkit的API的软件都将会变成Mojang奇思妙想的受害者，Mojang拥有Bukkit和它的API的版权。就像甲骨文对上谷歌一样。
  * BukkitForge
-   * Bukkit api, see bukkit negative
+   * 使用Bukkit API，查看Bukkit的反对意见
  * Glowstone - https://github.com/SpaceManiac/Glowstone
-   * Bukkit api, see bukkit negative
+   * 使用Bukkit API，查看Bukkit的反对意见
  * Canary - http://www.canarymod.net/books/api-reference
    * https://ci.visualillusionsent.net/job/CanaryLib/javadoc/ 
  * SpoutAPI - https://github.com/SpoutDev/Spout/tree/master/api/src/main/java/org/spout/api
-   * (javadocs/thanks Kashike) - http://vq.lc/ (all) http://vq.lc/api/ (API)
+   * (javadocs/感谢 Kashike) - http://vq.lc/ （全部） http://vq.lc/api/ （API）
    * https://github.com/SpoutDev/Spout/blob/master/LICENSE.txt 
-   * LGPL unless commits are 6 months old, then it is MIT. All of SpoutAPI’s current code is MIT
-     * Except for the BukkitBridge compat layer which is GPL.
+   * 提交代码6个月之前使用LGPL，6个月之后使用MIT协议。目前所有代码使用MIT
+     * 除了BukkitBridge兼容层使用的是
  * TridentSDK - https://github.com/TridentSDK
-   * No one has seriously considered trident
- * Start a new Forge API
+   * 没人认真的考虑过Trident
+ * 开启一个新的FORGE API
    * http://xkcd.com/927/ 
- * Wait for Mojang API -
-   * Will be year or more away, already waited two since it was promised. Not a viable option.
+ * 使用Mojang的官方API -
+   * 可能一年之后才会出来，早就已经等了两年了。不予考虑。
