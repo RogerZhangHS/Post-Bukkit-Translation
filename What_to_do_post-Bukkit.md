@@ -119,31 +119,31 @@
       * v.重新排序现有的API至新的API的可能性？90+%？兼容性？（反馈）
       * vi.需要集成Forge API？
       * vii.是否对社区完全透明开放？
-  * 5.Runtime patch with current Bukkit and Craftbukkit code (i.e. Mojang’s code is never distributed in the same binary as the GPL code -- rather, it is combined when the user runs the server)
-    * a.Very dangerous in regards to Bukkit’s licensing situation (MAJOR)
-    * b.Can use Bukkit API（加分）
-      * i.Bukkit API is Mojang owned, may not be a plus
+  * 5.对于目前Bukkit和Craftbukkit的运行补丁（注：Mojang的代码从未使用GPL协议发不过 -- 它被使用在用户运行服务端时） 
+    * a.从目前的Bukkit许可情况来看十分危险（重要）
+    * b.可以使用Bukkit API（加分）
+      * i.Bukkit API是Mojang的，还是别加分了
   * 6.Install patch with current Bukkit and Craftbukkit code  (i.e. Mojang’s code is never distributed in the same binary as the GPL code -- rather, it is combined via a simple installer, which allows users to build their own server, using our, and their own patches)
-    * a.Less dangerous, but still very dangerous in regards to Bukkit’s licensing situation  (MAJOR).
+    * a.Less dangerous, but still very dangerous in regards to Bukkit’s licensing situation （重要）.
       * i.We can ‘ditch’ most if not all bukkit code, and use our own implementation, the default server already has most parts we need, all we need to add is a good API, which isn’t a whole lot of work, but certainly less work than writing a entire server from scratch, opinions?
         * Not sure whether it’s just a good idea, maybe keep the bukkit API and reimplement craftbukkit?
-    * b.Possibly ‘more’ legal than distributing the minecraft-server.jar
-    * c.Can use Bukkit API（加分）
-  * 7.Wait until Mojang releases the API
-    * a.May be a very long wait, potentially years (we waited 2, and are still waiting) (MAJOR)
+    * b.可能会比直接使用 minecraft-server.jar “更合法”一些
+    * c.可以使用Bukkit API（加分）
+  * 7.等待MOJANG发布API
+    * a.May be a very long wait, potentially years (we waited 2, and are still waiting)（重要）
     * b.It will be an step up from Bukkit in what you can do, but it will not compare to Forge, et. al. which permit client modding because you will not be able to execute your own code on the client 
     * c.Possibly the lamest api we’ve ever seen, looking at the current possibility’s using command blocks, e.g. totally written, and made to be used on realms. Likely won’t compare to the extensible changes possible with current APIs.
       * i.Considering what Mojang’s been doing recently, could it be a ploy to force people on realms (conspiracy theory)
-  * 8.Implement a plugin API that acts as a wrapper around the Minecraft server
-    * a.May even work on snapshots
-    * b.Likely very fast to update (MAJOR)
-    * c.Very limited as to what can be done (MAJOR)
-      * i.Can only do what can be done by modifying network packets or reusing what can be done with command blocks 
+  * 8.在Minecraft_Server里内置一个API
+    * a.甚至可能在快照版本内可用
+    * b.看起来更新会很快（重要）
+    * c.十分受限（重要）
+      * i.只能够通过修改网络包，或者用那些能够用命令方块使用的东西
 
 #备注
  * With nearly everything at this point in the Minecraft community being written in Java, a Java based server would probably gain the most support.
  * Using the current minecraft-server.jar is the easiest way to go, distributing patches which patch the server-code to insert ‘our’ code, allows experienced users to use java reflection to change base code, and use things we haven’t implemented in the API yet.
- * Vanilla clients need to be able to connect to it. Quite simply, if we’re looking for a post-Bukkit option, it’ll have to be this way. (MAJOR)
+ * Vanilla clients need to be able to connect to it. Quite simply, if we’re looking for a post-Bukkit option, it’ll have to be this way.（重要）
 
 #问题
   * 1.Are we going to stick to ONE protocol, or are we planning to be MULTI protocol.
@@ -186,7 +186,8 @@
  * 全部来自 #nextstep 的IRC频道，除非另加注明
    * 1.<LexManos> Chunkr，没错，我要完全重写FML的登陆过程。最终的目标是允许原版客户端连接Forge服务端。在1.7.10中的问题是threadedness of the client和我并不想破坏协议兼容性的原因。
    * 2.<LexManos> 我有很严格的规矩遵守，将mod的兼容性控制在单一一个MC版本中，而新的MC版本就意味着我可以把那些新的狗屁东西搞得更好了。
-   * 3.<LexManos> Dark_Arc, To be able to provide a platform that extends the most functionality to the end modder allowing for proper content and expansion, a ever evolving and adaptible interface to vanilla code is required. People would be crazy to say that it is possible to do 1/2 the shit modders do with a massive abstraction layer while maintaining my sanity on the development end. So yes ideally there would be two projects as there have existed sofar. Forge which is low level giving everyone access to what they want, and a abstraction layer {Bukkit} that provides a stable platform for the smaller general purpose things. This is why Bukkit and Forge have existed in harmony for so long. If the time comes where we need to official find a replacement for Bukkit's abstraction layer. I am all for it and will hope that whomever develops that {or helps me develop it} will be willing to work with me on a closer level then the Bukkit team has. This is why before this fiasco I was working with Blood to get Cauldron into a more maintainable and easier to develop state.
+   * 3.<LexManos> Dark_Arc，为了为提供终端mod作者提供一个能够为他们提供正确的内容和拓展，一个一直在进化并且一直在适应原版代码的平台是必要的。
+   Dark_Arc, To be able to provide a platform that extends the most functionality to the end modder allowing for proper content and expansion, a ever evolving and adaptible interface to vanilla code is required. People would be crazy to say that it is possible to do 1/2 the shit modders do with a massive abstraction layer while maintaining my sanity on the development end. So yes ideally there would be two projects as there have existed sofar. Forge which is low level giving everyone access to what they want, and a abstraction layer {Bukkit} that provides a stable platform for the smaller general purpose things. This is why Bukkit and Forge have existed in harmony for so long. If the time comes where we need to official find a replacement for Bukkit's abstraction layer. I am all for it and will hope that whomever develops that {or helps me develop it} will be willing to work with me on a closer level then the Bukkit team has. This is why before this fiasco I was working with Blood to get Cauldron into a more maintainable and easier to develop state.
 #API比较
  * Bukkit
    * 任何使用Bukkit的API的软件都将会变成Mojang奇思妙想的受害者，Mojang拥有Bukkit和它的API的版权。就像甲骨文对上谷歌一样。
